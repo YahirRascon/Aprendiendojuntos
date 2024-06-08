@@ -1,0 +1,163 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: rgb(24, 24, 70);
+    color:rgb(245, 229, 229);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(197, 66, 248);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos específicos */
+section {
+    margin-bottom: 20px;
+}
+.imagen{
+    max-width: 300px;
+    height: auto;
+}
+.imagen{
+    width: 200px;
+    height: 150px;
+}
+footer button {
+    background-color: #4CAF50; /* Cambia el color de fondo del botón a verde */
+    color: rgb(246, 215, 215); /* Cambia el color del texto a blanco */
+    padding: 10px 20px; /* Añade relleno al botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 4px; /* Añade esquinas redondeadas al botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+/* Estilos para el contenido */
+.contenido {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+
+
+/* Estilos para el texto del primer año */
+.contenido p {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 24px; /* Ajusta el tamaño de fuente */
+}
+
+/* Estilos para el título "Plan de Estudios" en la página "Sobre Nosotros" */
+.sobre-nosotros-titulo {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 36px; /* Ajusta el tamaño de fuente */
+}
+
+.imagen-sobre-nosotros {
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    max-width: 500px;
+    display: block; /* Convertir la imagen en un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+/* Centrar contenido en la página de blog */
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#blog h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#blog article {
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+#blog p {
+    text-align: justify;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button i {
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button .overlay {
+    display: none; /* Asumiendo que no estás utilizando la clase overlay en este contexto */
+}
+.imagen{
+    max-width: 300px;
+    height: auto;
+}
+.imagen{
+    width: 200px;
+    height: 150px;
+}
+   /* Estilos para los botones de redes sociales */
+   .redes-sociales a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.redes-sociales img {
+    width: 40px; /* Tamaño normal de las imágenes */
+    height: 40px;
+    border-radius: 50%; /* Para hacer los íconos de redes sociales redondos */
+}

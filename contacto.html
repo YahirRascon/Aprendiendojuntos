@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Img/logo-3.png" alt="Logo de Mi Sitio Web" class="imagen">
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre_nosotros.html .html">Sobre Nosotros</a></li>
+                <li><a href="requisitos.html .html">Requisitos</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+          <!-- Formulario -->
+<div class="col">
+    <form action="send_form.php" method="POST">
+        <div class="form-group">
+            <label for="nombre">Tu Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Número Telefónico:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Número Telefónico" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Dirección de Correo:</label>
+            <input type="email" id="email" name="email" placeholder="Dirección de Correo" required>
+        </div>
+
+        <div class="form-group">
+            <label for="tema">Tema:</label>
+            <input type="text" id="tema" name="tema" placeholder="Tema" required>
+        </div>
+
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" cols="30" rows="9" placeholder="Mensaje" required></textarea>
+        </div>
+
+        <button type="submit">
+            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+        </button>
+    </form>
+    <div style="text-align: center;">
+        <!-- Botones de redes sociales -->
+        <h3>Redes sociales</h3>
+        <div class="redes-sociales">
+            <a href="https://facebook.com/mi_escuela" target="_blank" rel="noopener noreferrer">
+                <img src="Img/Logo_de_Facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/mi_escuela" target="_blank" rel="noopener noreferrer">
+                <img src="Img/x.jpg" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/escuela_aprendiendo_juntos1/" target="_blank" rel="noopener noreferrer">
+                <img src="Img/insta.jpg" alt="Instagram">
+            </a>
+        </div>
+    </div>
+        </section>
+    </main>
+ <footer>
+        <p>Derechos de autor © 2024 - Mi Sitio Web</p>
+        <button onclick="window.scrollTo(0, 0)">Regresar al Inicio</button>
+    </footer>
+</body>
+</html>
